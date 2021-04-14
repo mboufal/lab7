@@ -6,7 +6,7 @@ function init(){
 			alert('Magda Boufal: ' + input.value);
 			output.innerHTML = input.value;
 		}
-		but.addEventListener('click', init);
+		but.addEventListener('click', myEventFunction);
 }
 
 window.addEventListener('load', init);
